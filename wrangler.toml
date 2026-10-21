@@ -1,0 +1,9 @@
+name = "64types-paypal-ai"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "public"
+
+# Workers AI for /api/insight (free daily allowance; no API key needed)
+[ai]
+binding = "AI"
+
+# Secrets (never commit): npx wrangler pages secret put PAYPAL_CLIENT_ID / PAYPAL_SECRET

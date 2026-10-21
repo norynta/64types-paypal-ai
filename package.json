@@ -1,0 +1,10 @@
+{
+  "name": "64types-paypal-ai",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "PayPal checkout (Orders v2, server-side) and an AI personal insight (Cloudflare Workers AI) for the 64 Types Deep Report. PayPal AI Hackathon 2026 entry.",
+  "scripts": { "test": "tsx test/api.test.ts", "typecheck": "tsc --noEmit" },
+  "devDependencies": { "@types/react": "^19.0.0", "react": "^19.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}
